@@ -7,6 +7,7 @@
 Node, npm, nvm, Vue Command Line Interface (CLI), vscode, chorme, Vue.js devtools
 
 2. Install vs plugin
+
    Vue VSCode Extension Pack, it includes Vetur, Vue 2 Snippets, pretteier...
 
 3. Learn to use Emmet to boost develop
@@ -14,9 +15,9 @@ Node, npm, nvm, Vue Command Line Interface (CLI), vscode, chorme, Vue.js devtool
 # Basic of Vue
 
 1. life cycle
-   [](life_cycle.png)
+   [Life cycle](life_cycle.png)
 
-2. Parent, child component cycle
+2. Parent, child component life cycle
     * beforeCreate() and created() of the parent run first.
     * Then the parent’s template is being rendered, which means the child components get created 
     so now the children’s beforeCreate() and created() hooks execute respecitvely.

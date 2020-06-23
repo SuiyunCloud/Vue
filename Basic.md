@@ -365,3 +365,23 @@ v-model will ignore the initial value, checked, or selected attributes found on 
     ```js
     <component v-bind:is="currentTabComponent"></component>
     ```
+
+5. event bus
+
+  Define a EventBus.js file, 
+  ```js
+    import Vue from 'vue';
+    export default new Vue();
+  ```
+
+  Emit event in the event source component with `$emit`
+  ```js
+  EventBus.$emit('addShoppingItem', this.itemName)
+  ```
+
+  Listen to the event in other component with `$on`
+  ```js
+  EventBus.$on('addShoppingItem', (item) => {
+    console.log(`There was an item added! ${item}`);
+  })
+```

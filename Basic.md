@@ -34,6 +34,12 @@ template, script, style
     </script>
     ```
 
+3. global definition
+Define a component which can be used globally
+```js
+Vue.component('connection-status', ConnectionStatus);
+```
+
 ###  is attribute
 
   Some label require only specified label can be used, such as only \<tr>, \<td>... can be used in \<table>. In this condition, use is attribute to insert component.

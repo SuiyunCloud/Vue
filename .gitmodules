@@ -1,0 +1,3 @@
+[submodule "vuejs-component-style-guide"]
+	path = vuejs-component-style-guide
+	url = https://github.com/pablohpsilva/vuejs-component-style-guide.git

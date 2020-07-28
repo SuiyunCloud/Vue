@@ -15,7 +15,7 @@ Node, npm, nvm, Vue Command Line Interface (CLI), vscode, chorme, Vue.js devtool
 # Basic of Vue
 
 1. life cycle
-   [Life cycle](life_cycle.png)
+   ![Life cycle](life_cycle.png)
 
 2. Parent, child component life cycle
     * beforeCreate() and created() of the parent run first.
